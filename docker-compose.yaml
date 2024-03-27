@@ -5,4 +5,4 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - "/mnt/deploy:/usr/local/tomcat/webapps"
+      - "/mnt/jenkins-slave:/usr/local/tomcat/webapps"
